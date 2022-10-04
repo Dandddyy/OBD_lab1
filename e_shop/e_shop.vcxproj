@@ -152,6 +152,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="e_shop.cpp" />
+    <ClCompile Include="Func.cpp" />
+    <ClCompile Include="Orders.cpp" />
+    <ClCompile Include="TypeOfSlave.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Func.h" />
+    <ClInclude Include="Orders.h" />
+    <ClInclude Include="TypeOfSlave.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
